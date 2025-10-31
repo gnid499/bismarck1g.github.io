@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Деяния линкора</title>
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            position: relative;
+            min-height: 100vh;
+        }
+        
+        .home-link {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+        
+        .home-link img {
+            width: 60px;
+            height: 60px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        
+        .content-container {
+            display: flex;
+            gap: 30px;
+            margin: 30px 0;
+            align-items: flex-start;
+        }
+        
+        .image-container img {
+            width: 500px;
+            border: 2px solid #2c3e50;
+        }
+        
+        .text-container {
+            flex: 1;
+        }
+        
+        .text-container p {
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .timeline {
+            margin: 20px 0;
+        }
+        
+        .timeline-item {
+            margin-bottom: 10px;
+            padding: 5px 0;
+        }
+        
+        .timeline-date {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .battle-info {
+            margin: 15px 0;
+            padding: 10px;
+        }
+        
+        .nav {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+        
+        .nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 12px 24px;
+            border: 2px solid #2c3e50;
+            border-radius: 8px;
+            background-color: white;
+            display: inline-block;
+        }
+        
+        .nav-prev {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+        
+        .nav-prev a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 12px 24px;
+            border: 2px solid #2c3e50;
+            border-radius: 8px;
+            background-color: white;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ссылка на главную в левом верхнем углу -->
+    <div class="home-link">
+        <a href="glstr.html">
+            <img src="s-l500.jpg" alt="На главную">
+        </a>
+    </div>
+
+    <h1>Выпуск линкора на воду и военные действия</h1>
+    
+    <div class="content-container">
+        <div class="image-container">
+            <img src="00007872.jpg" alt="Линкор Бисмарк">
+        </div>
+        
+        <div class="text-container">
+            <h2>Спуск на воду и ввод в строй</h2>
+            <p>Линкор "Бисмарк" был спущен на воду 14 февраля 1939 года. Церемония прошла в Гамбурге на верфи Blohm & Voss.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">1 июля 1936</span> - Заложение киля
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">14 февраля 1939</span> - Спуск на воду
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">24 августа 1940</span> - Ввод в состав флота
+                </div>
+            </div>
+
+            <h2>Боевые операции</h2>
+            <p>Свой первый боевой поход "Бисмарк" начал 18 мая 1941 года в рамках операции "Рейнские учения".</p>
+            
+            <div class="battle-info">
+                <strong>Операция "Рейнские учения"</strong><br>
+                Цель: Прорыв в Атлантику для нарушения торговых путей
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">18 мая 1941</span> - Выход из Готенхафена
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">24 мая 1941</span> - Бой в Датском проливе
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">27 мая 1941</span> - Потопление
+                </div>
+            </div>
+
+            <h2>Ключевые сражения</h2>
+            
+            <div class="battle-info">
+                <strong>Бой в Датском проливе</strong><br>
+                Потоплен "Худ", поврежден "Принц Уэльский"
+            </div>
+
+            <div class="battle-info">
+                <strong>Финальное сражение</strong><br>
+                Потоплен после 1,5 часов боя, спаслось 115 человек
+            </div>
+
+            <p>27 мая 1941 года "Бисмарк" был потоплен в Северной Атлантике.</p>
+        </div>
+    </div>
+    
+    <!-- Ссылка на предыдущую страницу -->
+    <div class="nav-prev">
+        <a href="2str.html">Перейти к 2 странице</a>
+    </div>
+    
+    <!-- Ссылка на следующую страницу -->
+    <div class="nav">
+        <a href="str4.html">Перейти к 4 странице</a>
+    </div>
+</body>
+</html>
